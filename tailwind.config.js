@@ -8,9 +8,13 @@ module.exports = {
       primary: "Space Grotesk",
     },
     extend: {
+      lineHeight: {
+      },
       colors: {
         black: '#0E0C12',
-        white: '#ffffff'
+        white: '#ffffff',
+        gray: '#D9D9D9',
+        "gray-primary": 'rgba(255, 255, 255, 0.08)'
 
       },
       backgroundImage: {
