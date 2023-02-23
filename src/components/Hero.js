@@ -1,10 +1,10 @@
 import React from "react";
-import heroImg from '../assets/hero.png'
+import heroImg from '../assets/hero.png';
 const Hero = () => {
   return (
-    <div className="bg-white">
+    <div>
       <div className="mx-auto max-w-7xl pb-24 sm:pb-32 place-items-start lg:grid lg:grid-cols-2 lg:gap-x-8 lg:py-40 lg:px-8 ">
-        
+
         <div className="px-6 lg:px-0 ">
           <div className="mx-auto max-w-2xl">
             <div className="max-w-lg">
@@ -34,7 +34,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="mt-20 sm:mt-24 md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
-              <img src={heroImg}/>
+          <img src={heroImg} />
         </div>
       </div>
     </div>
