@@ -2,6 +2,7 @@ import EchoSystems from "./components/EchoSystems";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Platforms from "./components/Platforms";
+import Tokenomics from "./components/Tokenomics";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <Hero />
         <Platforms/>
         <EchoSystems/>
+        <Tokenomics/>
       </div>
     </div>
   );
