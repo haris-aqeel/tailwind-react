@@ -24,7 +24,7 @@ export default function App() {
                     </span>
                   </a>
                 </div>
-                <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl font-primary">
                   Supercharge your web applications
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -67,7 +67,35 @@ export default function App() {
                           <div className="border-r border-gray-600/10 py-2 px-4">App.jsx</div>
                         </div>
                       </div>
-                      <div className="px-6 pt-6 pb-14">{/* Your code example */}</div>
+                      <div className="px-6 pt-6 pb-14">
+
+                        <p className='text-white'>{
+                          "import { useState } from 'react'"
+                        }
+                        </p>
+                        <p className='text-white'>{
+                          "import { Switch } from '@headlessui/react'"
+                        }
+                        </p>
+                        <p className='text-white'>{
+                          "import { useState } from 'react'"
+                        }
+                        </p>
+                        <p className='text-white'>{
+                          "import { useState } from 'react'"
+                        }
+                        </p>
+                        <p className='text-white'>{
+                          "import { useState } from 'react'"
+                        }
+                        </p>
+                        <p className='text-white'>{
+                          "import { useState } from 'react'"
+                        }
+                        </p>
+
+
+                      </div>
                     </div>
                   </div>
                   <div
